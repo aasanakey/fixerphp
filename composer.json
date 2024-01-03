@@ -1,5 +1,5 @@
 {
-    "name": "aasanakey/fixer",
+    "name": "aasanakey/fixerphp",
     "description": "A package for foreign exchange rates and currency conversion based on the API provided by apilayer fixer api",
     "type": "library",
     "require": {
@@ -32,5 +32,8 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/pest"
     }
 }
