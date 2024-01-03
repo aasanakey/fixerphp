@@ -3,11 +3,11 @@
     "description": "A package for foreign exchange rates and currency conversion based on the API provided by apilayer fixer api",
     "type": "library",
     "require": {
-        "php": ">=8.0",
+        "php": "^8.0",
         "guzzlehttp/guzzle": "^7.8"
     },
     "require-dev": {
-        "pestphp/pest": ">=2.10",
+        "pestphp/pest": "^2.10",
         "mockery/mockery": "^1.6"
     },
     "license": "MIT",
